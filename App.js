@@ -30,7 +30,7 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <Text style={{justifyContent:'center', alignSelf: 'center', fontSize: 20, color: 'black'}}>Bitrise Test</Text>
-        {/* <ScrollView
+        <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
@@ -67,7 +67,7 @@ const App: () => React$Node = () => {
             </View>
             <LearnMoreLinks />
           </View>
-        </ScrollView> */}
+        </ScrollView>
       </SafeAreaView>
     </>
   );
